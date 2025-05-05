@@ -92,7 +92,7 @@ fit reset <id-commit>
 git clone <url-repos>
 ```
 
-# Si l'on veut également chooisir le nom du dossier ou va être cloner le repertoire
+# Si l'on veut également choisir le nom du dossier ou va être cloner le repertoire
 ```bash
 git clone <url> <nom-dossier>
 ```
