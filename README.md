@@ -66,6 +66,20 @@ git switch -c nom-nouvelle-branche
 ```bash
 git revert <id-commit>
 ```
+# Combiner le contenu de deux branches différentes (fusionner)
+```bash
+git merge nom-de-la-branche
+
+ex : Faire un merge de main dans bugFix
+git checkout bugFix; git merge main
+```
+Etape : 
+Faire nouvelle branche bugFix
+Se positionner sur la branche bugFix avec git checkout bugFix
+Retourner sur la branche main (commande git checkout)
+Faire un nouveau commit
+Fusionner la branche bugFix dans main avec git merge 
+
 # Comparer les changements entre commits : 
 ```bash
 git diff <id-commit>
